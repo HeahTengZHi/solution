@@ -28,6 +28,16 @@ public class Solution {
 		        new Cat() 
 		};
 		
+		
+		System.out.println("\nParrot\n====================");
+		Parrot parrot=(Parrot) animals[3];
+		parrot.sing();
+		parrot.sing("dog");
+		parrot.sing("cat");
+		parrot.sing("rooster");
+		
+		
+		System.out.println("\nButterfly\n====================");
 		Butterfly Butterfly=(Butterfly) animals[9];
 		Butterfly.fly();
 		Butterfly.sing();
@@ -35,10 +45,10 @@ public class Solution {
 		Butterfly.refCaterpillar.sing();
 		Butterfly.refCaterpillar.walk();
 		
-		
-		Shark c=(Shark) animals[5];
-		c.walk();
-		c.characteristics();
+		System.out.println("\nShark\\n====================");
+		Shark shark=(Shark) animals[5];
+		shark.walk();
+		shark.characteristics();
 	}
 
 }

@@ -14,7 +14,7 @@ public class Chicken extends Bird{
 		System.out.println("Cluck cluck");
 	}
 	
-	class Rooster implements wingInterface{
+	public class Rooster implements wingInterface{
 		void sing() {
 			System.out.println("Cock-a-doodle-doo");
 		}

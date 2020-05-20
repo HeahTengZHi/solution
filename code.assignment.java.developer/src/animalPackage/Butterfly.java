@@ -3,7 +3,7 @@ package animalPackage;
 public class Butterfly extends Animal implements wingInterface{
 
 	public void fly() {
-		System.out.println("Butterfly can fly");
+		System.out.println("Butterfly flying");
 	}
 	
 	public void walk() {
